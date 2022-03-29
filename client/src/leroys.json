@@ -1,0 +1,1126 @@
+[{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c11a"
+  },
+  "nombre": "Leroy Merlin Almería",
+  "direccion": "Av. Médico Francisco Pérez Company, 19",
+  "poblacion": "Almería",
+  "latitud": 36.860305,
+  "longitud": -2.436667
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c11b"
+  },
+  "nombre": "Leroy Merlin Roquetas de Mar",
+  "direccion": "Ctra. de Alicún s/n",
+  "poblacion": "Roquetas de Mar",
+  "latitud": 36.77558,
+  "longitud": -2.612826
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c11c"
+  },
+  "nombre": "Leroy Merlin Bahía de Cádiz",
+  "direccion": "Polígono Industrial Tres Caminos Calamar s/n",
+  "poblacion": "Cádiz",
+  "latitud": 36.4691778,
+  "longitud": -6.170485600000006
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c11d"
+  },
+  "nombre": "Leroy Merlin Jerez de la Frontera",
+  "direccion": "Av. de la Ilustración nº1",
+  "poblacion": "Jerez de la Frontera",
+  "latitud": 36.709343,
+  "longitud": -6.127329
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c11e"
+  },
+  "nombre": "Leroy Merlin Los Barrios",
+  "direccion": "Polígono Industrial Palmones II",
+  "poblacion": "Los Barrios",
+  "latitud": 36.182102,
+  "longitud": -5.438251
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c11f"
+  },
+  "nombre": "Leroy Merlin Córdoba",
+  "direccion": "Ctra. Palma del Río km 4.5",
+  "poblacion": "Córdoba",
+  "latitud": 37.8772321,
+  "longitud": -4.835460000000012
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c120"
+  },
+  "nombre": "AKI Pulianas",
+  "direccion": "Calle Luis Buñuel, s/n",
+  "poblacion": "Pulianas",
+  "latitud": 37.215306,
+  "longitud": -3.618794
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c121"
+  },
+  "nombre": "Leroy Merlin Compact Motril",
+  "direccion": "Av. de Salobreña s/n",
+  "poblacion": "Motril",
+  "latitud": 36.741674,
+  "longitud": -3.530745
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c122"
+  },
+  "nombre": "Leroy Merlin Granada",
+  "direccion": "Av. de las Palmeras s/n",
+  "poblacion": "Granada",
+  "latitud": 37.147447,
+  "longitud": -3.612512
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c123"
+  },
+  "nombre": "Leroy Merlin Huelva",
+  "direccion": "Ronda Exterior Sur s/n",
+  "poblacion": "Huelva",
+  "latitud": 37.270048,
+  "longitud": -6.918598999999972
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c124"
+  },
+  "nombre": "Leroy Merlin Jaén",
+  "direccion": "Campus de las lagunillas S/N",
+  "poblacion": "Jaén",
+  "latitud": 37.7905641,
+  "longitud": -3.7733729
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c125"
+  },
+  "nombre": "Leroy Merlin Compact Mijas",
+  "direccion": "Av. Carmen Sáez Tejada",
+  "poblacion": "Mijas",
+  "latitud": 36.5364738,
+  "longitud": -4.636398900000017
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c126"
+  },
+  "nombre": "Leroy Merlin Málaga",
+  "direccion": "Camino de la Loma San Julián s/n",
+  "poblacion": "Málaga",
+  "latitud": 36.667478,
+  "longitud": -4.468814
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c127"
+  },
+  "nombre": "Leroy Merlin Marbella",
+  "direccion": "Ctra. Ojen s/n",
+  "poblacion": "Marbella",
+  "latitud": 36.52164,
+  "longitud": -4.876723
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c128"
+  },
+  "nombre": "Leroy Merlin Sevilla Alcalá",
+  "direccion": "Polígono industrial Fridex. Parcela 1",
+  "poblacion": "Alcalá de Guadaíra",
+  "latitud": 37.3773998,
+  "longitud": -5.894229200000041
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c129"
+  },
+  "nombre": "Leroy Merlin Sevilla Dos Hermanas",
+  "direccion": "Av. Ingeniero José Luis Prats, 1",
+  "poblacion": "Dos Hermanas",
+  "latitud": 37.2904368,
+  "longitud": -5.9465895
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c12a"
+  },
+  "nombre": "Leroy Merlin Sevilla Tomares",
+  "direccion": "Parque Aljarafe-Tomares, Ctra. N-617",
+  "poblacion": "Tomares",
+  "latitud": 37.37487,
+  "longitud": -6.032181
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c12b"
+  },
+  "nombre": "Leroy Merlin Sevilla Tomares Construcción",
+  "direccion": "Polígono el Manchón, La Línea s/n",
+  "poblacion": "Tomares",
+  "latitud": 37.37488,
+  "longitud": -6.0321812
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c12c"
+  },
+  "nombre": "Leroy Merlin Compact Lepe",
+  "direccion": "Parque Comercial LepeSur, Av. Andalucía Sur II",
+  "poblacion": "Lepe",
+  "latitud": 37.25206650000001,
+  "longitud": -7.196029800000019
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c12d"
+  },
+  "nombre": "Leroy Merlin Los Barrios (Almacén de Construcción)",
+  "direccion": "Guadacorte Center, local 5",
+  "poblacion": "Los Barrios",
+  "latitud": 36.1818043,
+  "longitud": -5.4394517
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c12e"
+  },
+  "nombre": "Leroy Merlin Puerto Venecia",
+  "direccion": "Calle Teatro Malibrán, Nº10",
+  "poblacion": "Zaragoza",
+  "latitud": 41.6105157,
+  "longitud": -0.8911295000000337
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c12f"
+  },
+  "nombre": "Leroy Merlin Utebo",
+  "direccion": "CC Alcampo, Ctra. Logroño km 12",
+  "poblacion": "Utebo",
+  "latitud": 41.702284,
+  "longitud": -1.00529
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c130"
+  },
+  "nombre": "Leroy Merlin Gijón",
+  "direccion": "CC Nuevo Roces, Av. Roces 514",
+  "poblacion": "Gijón",
+  "latitud": 43.5129848,
+  "longitud": -5.6647930000000315
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c131"
+  },
+  "nombre": "Leroy Merlin Oviedo",
+  "direccion": "Parque Comercial Azabache, Ctra. NAS-18 Km 7,8",
+  "poblacion": "Oviedo",
+  "latitud": 43.415476,
+  "longitud": -5.799173
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c132"
+  },
+  "nombre": "Leroy Merlin Marratxí",
+  "direccion": "Alcampo, Ctra. PM-27, km 3,9",
+  "poblacion": "Marratxí",
+  "latitud": 39.615161,
+  "longitud": 2.707031
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c133"
+  },
+  "nombre": "Leroy Merlin Palma Ciudad",
+  "direccion": "CC Ocimax, C. Bisbe Pere de Puigdorfila, 3",
+  "poblacion": "Palma de Mallorca",
+  "latitud": 39.595631,
+  "longitud": 2.649598
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c134"
+  },
+  "nombre": "Leroy Merlin Las Palmas",
+  "direccion": "CC Tamaraceite, C. Antonio Abad Arencibia Villegas, 2",
+  "poblacion": "Las Palmas de Gran Canaria",
+  "latitud": 28.0953273,
+  "longitud": -15.471228300000007
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c135"
+  },
+  "nombre": "Leroy Merlin Telde",
+  "direccion": "La Mareta. Autovía GC-1 Km 8",
+  "poblacion": "Telde",
+  "latitud": 28.012735,
+  "longitud": -15.385839
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c136"
+  },
+  "nombre": "Leroy Merlin Adeje",
+  "direccion": "Avenida Ayyo s/n, Barranco las Torres",
+  "poblacion": "Adeje",
+  "latitud": 28.1202556,
+  "longitud": -16.7424394
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c137"
+  },
+  "nombre": "Leroy Merlin La Laguna",
+  "direccion": "CC La Laguna, Autopista S.C.-La Laguna.",
+  "poblacion": "La Laguna",
+  "latitud": 28.458395,
+  "longitud": -16.307619
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c138"
+  },
+  "nombre": "Leroy Merlin La Orotava",
+  "direccion": "CC La Villa, Avda. Molinos de Gofio",
+  "poblacion": "La Orotava",
+  "latitud": 28.393805,
+  "longitud": -16.547781
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c139"
+  },
+  "nombre": "Leroy Merlin Compact Torrelavega",
+  "direccion": "Av. de Bilbao, 124",
+  "poblacion": "Torrelavega",
+  "latitud": 43.337057,
+  "longitud": -4.0252496
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c13a"
+  },
+  "nombre": "Leroy Merlin Santander",
+  "direccion": "CC Valle Real, C. Alday s/n",
+  "poblacion": "Santander",
+  "latitud": 43.428088,
+  "longitud": -3.839688
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c13b"
+  },
+  "nombre": "Leroy Merlin Compact Ponferrada",
+  "direccion": "Av. de Asturias, 99",
+  "poblacion": "Ponferrada",
+  "latitud": 42.561763,
+  "longitud": -6.60414
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c13c"
+  },
+  "nombre": "Leroy Merlin León",
+  "direccion": "Av. de León Cuna del Parlamentarismo, 4",
+  "poblacion": "León",
+  "latitud": 42.6030015,
+  "longitud": -5.5617962
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c13d"
+  },
+  "nombre": "Leroy Merlin Compact Palencia",
+  "direccion": "Av. Brasilia Nº 5 Local 1",
+  "poblacion": "Palencia",
+  "latitud": 42.012536,
+  "longitud": -4.518473
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c13e"
+  },
+  "nombre": "Leroy Merlin Salamanca",
+  "direccion": "CC Capuchinos, Ctra. N-501, Km. 2",
+  "poblacion": "Salamanca",
+  "latitud": 40.949317,
+  "longitud": -5.652014
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c13f"
+  },
+  "nombre": "Leroy Merlin Compact Soria",
+  "direccion": "Polígono Industrial Las Casas, Calle A, 9A",
+  "poblacion": "Soria",
+  "latitud": 41.775508,
+  "longitud": -2.483475
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c140"
+  },
+  "nombre": "Leroy Merlin Valladolid",
+  "direccion": "CC Río Shopping, Ctra. A62 Salida 128)",
+  "poblacion": "Valladolid",
+  "latitud": 41.62841913125471,
+  "longitud": -4.789996147155762
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c141"
+  },
+  "nombre": "Leroy Merlin Compact Zamora",
+  "direccion": "CC Vista Alegre, N-122 Km. 62,3",
+  "poblacion": "Tordesillas",
+  "latitud": 41.521429,
+  "longitud": -5.721719
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c142"
+  },
+  "nombre": "Leroy Merlin Compact Ávila",
+  "direccion": "Av. Juan Carlos, 1",
+  "poblacion": "Ávila",
+  "latitud": 40.665208,
+  "longitud": -4.664352
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c143"
+  },
+  "nombre": "Leroy Merlin Albacete",
+  "direccion": "Imaginalia. Av. de la Ilustración",
+  "poblacion": "Albacete",
+  "latitud": 39.0094169,
+  "longitud": -1.8761354000000665
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c144"
+  },
+  "nombre": "Leroy Merlin Compact Ciudad Real",
+  "poblacion": "Ciudad Real",
+  "direccion": "C. Membrilla, 21",
+  "latitud": 38.974959,
+  "longitud": -3.916697
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c145"
+  },
+  "nombre": "Leroy Merlin Compact Valdepeñas",
+  "direccion": "Av. del vino, 10",
+  "poblacion": "Valdepeñas",
+  "latitud": 38.780879,
+  "longitud": -3.390533
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c146"
+  },
+  "nombre": "Leroy Merlin Compact Cuenca",
+  "direccion": "Av. Los Alfares, s/n",
+  "poblacion": "Cuenca",
+  "latitud": 40.076516,
+  "longitud": -2.152219
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c147"
+  },
+  "nombre": "Leroy Merlin Compact Guadalajara",
+  "direccion": "Polígono Industrial El Balconcillo. C. Trafalgar",
+  "poblacion": "Guadalajara",
+  "latitud": 40.62843,
+  "longitud": -3.186952
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c148"
+  },
+  "nombre": "Leroy Merlin Compact Talavera",
+  "direccion": "Parque Comercial El Golf. Av. de Madrid",
+  "poblacion": "Talavera de la reina",
+  "latitud": 39.9634864,
+  "longitud": -4.807090099999982
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c149"
+  },
+  "nombre": "Leroy Merlin Toledo",
+  "direccion": "CC La Abadía. A42, salida 65",
+  "poblacion": "Toledo",
+  "latitud": 39.9036494,
+  "longitud": -4.016242899999952
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c14a"
+  },
+  "nombre": "AKI Cabrera de Mar",
+  "direccion": "Ctra. N-II, Km. 644",
+  "poblacion": "Cabrera de Mar",
+  "latitud": 41.512999,
+  "longitud": 2.410355
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c14b"
+  },
+  "nombre": "AKI Manresa",
+  "direccion": "Polígono Trullols Parc, C. Agustí Coll 2-12",
+  "poblacion": "Manresa",
+  "latitud": 41.723254,
+  "longitud": 1.848196
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c14c"
+  },
+  "nombre": "Leroy Merlin Badalona",
+  "direccion": "CC Montigalà, Av. de la Comunitat Europa s/n",
+  "poblacion": "Badalona",
+  "latitud": 41.459136,
+  "longitud": 2.227936
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c14d"
+  },
+  "nombre": "Leroy Merlin Compact Sant Feliu de Llobregat",
+  "direccion": "C. Laureà Miró 361",
+  "poblacion": "Sant Feliu de Llobregat",
+  "latitud": 41.387511,
+  "longitud": 2.040399
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c14e"
+  },
+  "nombre": "Leroy Merlin Compact Vic",
+  "direccion": "Ctra. de Manlleu 60-74",
+  "poblacion": "Vic",
+  "latitud": 41.944263,
+  "longitud": 2.25847
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c14f"
+  },
+  "nombre": "Leroy Merlin Compact Vilanova",
+  "poblacion": "Vilanova i la Geltrú",
+  "direccion": "Ronda d'Europa, 46",
+  "latitud": 41.2271765,
+  "longitud": 1.7405317999999852
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c150"
+  },
+  "nombre": "Leroy Merlin La Maquinista",
+  "direccion": "CC La Maquinista, Paseo Potosí, 2",
+  "poblacion": "Barcelona",
+  "latitud": 41.4412919,
+  "longitud": 2.198414400000047
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c151"
+  },
+  "nombre": "Leroy Merlin Lliça d'Amunt",
+  "direccion": "CC Can Montcau, C. Comerç 3",
+  "poblacion": "Lliçà d'Amunt",
+  "latitud": 41.603047,
+  "longitud": 2.259812
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c152"
+  },
+  "nombre": "Leroy Merlin Sabadell",
+  "direccion": "C. Serra de Galliners s/n",
+  "poblacion": "Sabadell",
+  "latitud": 41.512347,
+  "longitud": 2.1051879999999983
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c153"
+  },
+  "nombre": "Leroy Merlin Sant Boi",
+  "direccion": "CC Sant Boi, C. de les Alberedes, 9",
+  "poblacion": "Sant Boi de Llobregat",
+  "latitud": 41.32918,
+  "longitud": 2.04919
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c154"
+  },
+  "nombre": "Leroy Merlin Sant Cugat",
+  "direccion": "Ctra. Rubí, 7",
+  "poblacion": "Sant Cugat del Vallès",
+  "latitud": 41.4814933,
+  "longitud": 2.045296300000018
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c155"
+  },
+  "nombre": "Leroy Merlin Urban Barcelona",
+  "direccion": "C. Fontanella, 12",
+  "poblacion": "Barcelona",
+  "latitud": 41.3883971,
+  "longitud": 2.1726948
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c156"
+  },
+  "nombre": "Leroy Merlin Compact Figueres",
+  "direccion": "Polígon Vilatenim. C-260 Km. 28,65",
+  "poblacion": "Figueres", 
+  "latitud": 42.2660712,
+  "longitud": 2.9961402000000135
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c157"
+  },
+  "nombre": "Leroy Merlin Compact Platja d'Aro",
+  "direccion": "C. Tramuntana",
+  "poblacion": "Platja d'Aro",
+  "latitud": 41.805482,
+  "longitud": 3.05342
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c158"
+  },
+  "nombre": "Leroy Merlin Girona",
+  "direccion": "C. Astúries, 66",
+  "poblacion": "Girona",
+  "latitud": 41.954407,
+  "longitud": 2.808955
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c159"
+  },
+  "nombre": "Leroy Merlin Compact Roda de Berà",
+  "direccion": "C. María Calas, 2",
+  "poblacion": "Roda de Berà",
+  "latitud": 41.178759,
+  "longitud": 1.489603
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c15a"
+  },
+  "nombre": "Leroy Merlin Compact Tortosa",
+  "direccion": "Av. de la Generalitat, 195",
+  "poblacion": "Tortosa",
+  "latitud": 40.799938,
+  "longitud": 0.520388
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c15b"
+  },
+  "nombre": "Leroy Merlin Tarragona",
+  "direccion": "Polígono Les Gaverres, parcela 7",
+  "poblacion": "Tarragona",
+  "latitud": 41.131122,
+  "longitud": 1.203373
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c15c"
+  },
+  "nombre": "Leroy Merlin AKI Sant Joan d'Alacant",
+  "direccion": "Ctra. Valencia, Km. 89",
+  "poblacion": "Sant Joan d'Alacant",
+  "latitud": 38.405222,
+  "longitud": -0.425857
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c15d"
+  },
+  "nombre": "Leroy Merlin Alicante",
+  "direccion": "CC Vistahermosa, Avda. Antonio Ramos Carratalá, s/n",
+  "poblacion": "Alicante",
+  "latitud": 38.37041,
+  "longitud": -0.468253
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c15e"
+  },
+  "nombre": "Leroy Merlin Compact Cocentaina",
+  "direccion": "CC L'Altet, Avda. L'Altet",
+  "poblacion": "Cocentaina",
+  "latitud": 38.732406,
+  "longitud": -0.442147
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c15f"
+  },
+  "nombre": "Leroy Merlin Compact Ondara",
+  "direccion": "Avenida Costa Blanca, 12",
+  "poblacion": "Ondara",
+  "latitud": 38.8155587,
+  "longitud": 0.022227299999940442
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c160"
+  },
+  "nombre": "Leroy Merlin Elche",
+  "direccion": "Polígono de Carrús, C. Almansa 68",
+  "poblacion": "Elche",
+  "latitud": 38.2779685,
+  "longitud": -0.7227248000000372
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c161"
+  },
+  "nombre": "Leroy Merlin Finestrat Benidorm",
+  "direccion": "CC La Cala de Finestrat. Av. de Finestrat, 11",
+  "poblacion": "Finestrat",
+  "latitud": 38.5339237,
+  "longitud": -0.17151079999996455
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c162"
+  },
+  "nombre": "Leroy Merlin La Zenia",
+  "direccion": "Centro Comercial Zenia Boulevar. Jade, s/n",
+  "poblacion": "La Zenia",
+  "latitud": 37.9292725,
+  "longitud": -0.7369129999999586
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c163"
+  },
+  "nombre": "Leroy Merlin Compact Torrevieja",
+  "direccion": "Centro Comercial Habaneras. Avenida Rosa Mazón Valero S/N",
+  "poblacion": "Torrevieja",
+  "latitud": 37.990029,
+  "longitud": -0.68667
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c165"
+  },
+  "nombre": "Leroy Merlin Castellón",
+  "direccion": "Avenida Enrique Gimeno, 101",
+  "poblacion": "Castellón",
+  "latitud": 39.97458,
+  "longitud": -0.06185
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c166"
+  },
+  "nombre": "Leroy Merlin Compact Vinaròs",
+  "direccion": "Carrer dels artesans s/n km 1049 crt 340a",
+  "poblacion": "Vinaròs",
+  "latitud": 40.455923,
+  "longitud": 0.453977
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c167"
+  },
+  "nombre": "Leroy Merlin Alboraya",
+  "direccion": "Centro Comercial Alcampo. Autovia V21, salida 14 - Port Saplaya",
+  "poblacion": "Alboraya",
+  "latitud": 39.503534,
+  "longitud": -0.323838
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c168"
+  },
+  "nombre": "Leroy Merlin Aldaia",
+  "direccion": "Centro Comercial Bonaire. Carretera Nacional III, Km. 345",
+  "poblacion": "Aldaia",
+  "latitud": 39.473335,
+  "longitud": -0.48588
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c169"
+  },
+  "nombre": "Leroy Merlin Burjassot",
+  "direccion": "Parque Comercial Ademuz. Avenida de la Ilustración, 6",
+  "poblacion": "Burjassot",
+  "latitud": 39.4997031,
+  "longitud": -0.408655299999964
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c16a"
+  },
+  "nombre": "Leroy Merlin Compact Xàtiva",
+  "direccion": "Carrer Ronda de la Sequía de la Vila",
+  "poblacion": "Xàtiva",
+  "latitud": 38.995311,
+  "longitud": -0.527666
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c16b"
+  },
+  "nombre": "Leroy Merlin Gandia",
+  "direccion": "Parque Comercial Myo. La Exportación, 14",
+  "poblacion": "Gandia",
+  "latitud": 38.9576419,
+  "longitud": -0.1728590999999824
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c16c"
+  },
+  "nombre": "Leroy Merlin La Pobla Vallbona",
+  "direccion": "Centro Comercial El Osito Parque. Autovía de Ademuz salida 17A",
+  "poblacion": "La Pobla de Vallbona",
+  "latitud": 39.5805476,
+  "longitud": -0.5325709999999617
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c16d"
+  },
+  "nombre": "Leroy Merlin Massanassa",
+  "direccion": "Centro Comercial Alfafar. C/ Medi Ambient nº 5",
+  "poblacion": "Massanassa",
+  "latitud": 39.410368,
+  "longitud": -0.384336
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c16e"
+  },
+  "nombre": "Leroy Merlin Sagunto",
+  "direccion": "Centro ​C​omercial Vidanova Parc. Cami del Rolls s/n",
+  "poblacion": "Sagunto",
+  "latitud": 39.671698,
+  "longitud": -0.266386099999977
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c16f"
+  },
+  "nombre": "Leroy Merlin Badajoz",
+  "direccion": "Polg. El Nevero. Av. Antonio Nevado González 43 Salida 403 A-5",
+  "poblacion": "Badajoz",
+  "latitud": 38.902176,
+  "longitud": -6.997067900000047
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c170"
+  },
+  "nombre": "Leroy Merlin Compact Mérida",
+  "direccion": "Avenida José Saramago de Sousa, 11",
+  "poblacion": "Mérida",
+  "latitud": 38.90661,
+  "longitud": -6.351063
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c171"
+  },
+  "nombre": "Leroy Merlin Compact Villanueva de la Serena",
+  "direccion": "Ctra. EX -206 (Villanueva - Don Benito) Rotonda de acceso a Villanueva",
+  "poblacion": "Villanueva de la Serena",
+  "latitud": 38.9688576,
+  "longitud": -5.807869
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c172"
+  },
+  "nombre": "Leroy Merlin Compact Cáceres",
+  "direccion": "Avenida Ferrocarril s/n",
+  "poblacion": "Cáceres",
+  "latitud": 39.464818,
+  "longitud": -6.386517
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c173"
+  },
+  "nombre": "Leroy Merlin A Coruña",
+  "direccion": "Centro Comercial Marineda City. Avenida Baños de Arteixo, S/N",
+  "poblacion": "A Coruña",
+  "latitud": 43.3446174,
+  "longitud": -8.42677839999999
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c174"
+  },
+  "nombre": "Leroy Merlin Compact Ferrol",
+  "direccion": "Polígono Industrial A Gandara. AP-9 Salida F-36 (Cedeira-Valdoviño)",
+  "poblacion": "Ferrol",
+  "latitud": 43.492676,
+  "longitud": -8.206858
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c175"
+  },
+  "nombre": "Leroy Merlin Compact Oleiros",
+  "direccion": "Centro Comercial Parque Oleiros. Avenida Das Mariñas N-Vi Km. 585",
+  "poblacion": "Oleiros",
+  "latitud": 43.321221,
+  "longitud": -8.316584
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c176"
+  },
+  "nombre": "Leroy Merlin Santiago",
+  "direccion": "Polígono Industrial Costa Vella. Parcela 44. Camilo José Cela s/n",
+  "poblacion": "Santiago de Compostela",
+  "latitud": 42.903034,
+  "longitud": -8.510798
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c177"
+  },
+  "nombre": "Leroy Merlin Santiago Jardín",
+  "direccion": "Rúa de Polonia, 4",
+  "poblacion": "Santiago de Compostela",
+  "latitud": 42.90294,
+  "longitud": -8.51071
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c178"
+  },
+  "nombre": "Leroy Merlin Compact Lugo",
+  "direccion": "Centro Comercial As Termas. Av. Infanta Elena, s/n",
+  "poblacion": "Lugo",
+  "latitud": 43.037958,
+  "longitud": -7.57014
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c179"
+  },
+  "nombre": "Leroy Merlin Ourense",
+  "direccion": "Polígono Industrial Quintela. N 120 Km 573,4",
+  "poblacion": "Ourense",
+  "latitud": 42.354461,
+  "longitud": -7.907142
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c17a"
+  },
+  "nombre": "Leroy Merlin Compact Mos",
+  "direccion": "Estrada Porriño Redondela, 15",
+  "poblacion": "Mos",
+  "latitud": 42.1709219,
+  "longitud": -8.620705899999962
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c17b"
+  },
+  "nombre": "Leroy Merlin Vigo",
+  "direccion": "Avenida de Madrid, 136",
+  "poblacion": "Vigo",
+  "latitud": 42.2174989,
+  "longitud": -8.7026364
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c17c"
+  },
+  "nombre": "Leroy Merlin Logroño",
+  "direccion": "Centro Comercial Parque Rioja. Calle Prado Viejo Parcela E y F",
+  "poblacion": "Logroño",
+  "latitud": 42.4516397,
+  "longitud": -2.4727313999999296
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c17d"
+  },
+  "nombre": "Leroy Merlin Alcalá de Henares",
+  "direccion": "Centro Comercial La Dehesa. N-II km 32",
+  "poblacion": "Alcalá de Henares",
+  "latitud": 40.501653,
+  "longitud": -3.328117
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c17e"
+  },
+  "nombre": "Leroy Merlin Alcorcón",
+  "direccion": "Parque Oeste. Carretera A-5 Km.14",
+  "poblacion": "Alcorcón",
+  "latitud": 40.342091,
+  "longitud": -3.85067
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c17f"
+  },
+  "nombre": "Leroy Merlin Compact Aranjuez",
+  "direccion": "Gonzalo Chacón, 92",
+  "poblacion": "Aranjuez",
+  "latitud": 40.0203921,
+  "longitud": -3.6119199
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c180"
+  },
+  "nombre": "Leroy Merlin Compact Colmenar",
+  "direccion": "Centro Comercial El Ventanal de la Sierra. Avda. de la Libertad S/N Salidas 29 y 31 M-607",
+  "poblacion": "Colmenar Viejo",
+  "latitud": 40.6593582,
+  "longitud": -3.7560016
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c181"
+  },
+  "nombre": "Leroy Merlin Compact Torrejón",
+  "direccion": "Avenida de la Constitución, 102",
+  "poblacion": "Torrejón de Ardoz",
+  "latitud": 40.45791,
+  "longitud": -3.469752
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c182"
+  },
+  "nombre": "Leroy Merlin Exprés Prosperidad",
+  "direccion": "Calle López de Hoyos 120",
+  "poblacion": "Madrid",
+  "latitud": 40.4442579,
+  "longitud": -3.6738518
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c183"
+  },
+  "nombre": "Leroy Merlin Getafe",
+  "direccion": "Centro de Ocio Nassica. Avenida Rio Guadalquivir s/n",
+  "poblacion": "Getafe",
+  "latitud": 40.27083,
+  "longitud": -3.69935
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c184"
+  },
+  "nombre": "Leroy Merlin Las Rozas",
+  "direccion": "Carretera de La Coruña Km. 22",
+  "poblacion": "Las Rozas de Madrid",
+  "latitud": 40.518101,
+  "longitud": -3.888226
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c185"
+  },
+  "nombre": "Leroy Merlin Leganés",
+  "direccion": "Parquesur. Ctra. de Villaverde, s/n Ctra. Toledo salida 9a",
+  "poblacion": "Leganés",
+  "latitud": 40.340643,
+  "longitud": -3.729306
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c186"
+  },
+  "nombre": "Leroy Merlin Madrid Barajas",
+  "direccion": "Polígono de Las Mercedes. Calle Laguardia, 4",
+  "poblacion": "Madrid",
+  "latitud": 40.4452019,
+  "longitud": -3.579951400000027
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c187"
+  },
+  "nombre": "Leroy Merlin Majadahonda",
+  "direccion": "El Carralero. Ctra. Boadilla Km 7,300",
+  "poblacion": "Majadahonda",
+  "latitud": 40.4572358,
+  "longitud": -3.874147999999991
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c188"
+  },
+  "nombre": "Leroy Merlin Rivas",
+  "direccion": "Rivas Futura. Juan de la Cierva nº2",
+  "poblacion": "Rivas-Vaciamadrid",
+  "latitud": 40.337494,
+  "longitud": -3.530482
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c189"
+  },
+  "nombre": "Leroy Merlin San Sebastián de los Reyes",
+  "direccion": "Centro Comercial Megapark. Plaza del Comercio s/n",
+  "poblacion": "San Sebastián de los Reyes",
+  "latitud": 40.544927,
+  "longitud": -3.614623
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c18a"
+  },
+  "nombre": "Leroy Merlin Urban Madrid",
+  "direccion": "Calle Raimundo Fernández Villaverde, 43",
+  "poblacion": "Madrid",
+  "latitud": 40.4465975,
+  "longitud": -3.6975214999999935
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c18b"
+  },
+  "nombre": "Leroy Merlin Nave de Construcción San Sebastián de los Reyes",
+  "direccion": "Avenida de Matapiñonera, Nº 5",
+  "poblacion": "San Sebastián de los Reyes",
+  "latitud": 40.5485283,
+  "longitud": -3.6189195
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c18c"
+  },
+  "nombre": "Leroy Merlin Compact Melilla",
+  "direccion": "Centro Comercial Parque Melilla. Paseo de las Rosas, 19 A",
+  "poblacion": "Melilla",
+  "latitud": 35.270875,
+  "longitud": -2.938665
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c18d"
+  },
+  "nombre": "Leroy Merlin Cartagena",
+  "direccion": "Parque Comercial Espacio Mediterraneo. Polígono Industrial Cabezo Beaza S/N",
+  "poblacion": "Cartagena",
+  "latitud": 37.624026,
+  "longitud": -0.948425
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c18e"
+  },
+  "nombre": "Leroy Merlin Compact San Pedro del Pinatar",
+  "direccion": "Ctra N-332 Km 33",
+  "poblacion": "San Pedro del Pinatar",
+  "latitud": 37.822473,
+  "longitud": -0.808767
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c18f"
+  },
+  "nombre": "Leroy Merlin Murcia",
+  "direccion": "Centro Comercial Nueva Condomina. Carretera Nacional A-7 salida D. Juan de Borbón",
+  "poblacion": "Murcia",
+  "latitud": 38.038209,
+  "longitud": -1.151826
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c190"
+  },
+  "nombre": "Leroy Merlin Murcia Sur",
+  "direccion": "Centro Comercial Montevida. Camino de la Paloma, 25",
+  "poblacion": "Murcia",
+  "latitud": 37.9385197,
+  "longitud": -1.1489407999999912
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c191"
+  },
+  "nombre": "Leroy Merlin Compact Tudela",
+  "direccion": "Ctra de Corella. Salida 94, A68. Vial Río Colmar",
+  "poblacion": "Tudela",
+  "latitud": 42.059242,
+  "longitud": -1.631
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c192"
+  },
+  "nombre": "Leroy Merlin Pamplona",
+  "direccion": "Parque Comercial Galaria. Barrio La Morea s/n",
+  "poblacion": "Pamplona",
+  "latitud": 42.78592,
+  "longitud": -1.630401
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c193"
+  },
+  "nombre": "Leroy Merlin Oiartzun",
+  "direccion": "Barrio Lintzirin- Oiartzun. Crta. N-I Km 469",
+  "poblacion": "Oiartzun",
+  "latitud": 43.3137463,
+  "longitud": -1.8760637999999972
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c194"
+  },
+  "nombre": "Leroy Merlin Artea",
+  "direccion": "Centro Comercial Artea. Barrio Peruri 39",
+  "poblacion": "Artea",
+  "latitud": 43.34104500000001,
+  "longitud": -2.9926212000000305
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c195"
+  },
+  "nombre": "Leroy Merlin Barakaldo",
+  "direccion": "Centro Comercial Megapark. Avenida de la Ribera s/n",
+  "poblacion": "Barakaldo",
+  "latitud": 43.287885,
+  "longitud": -3.000002
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c196"
+  },
+  "nombre": "Leroy Merlin Compact Durango",
+  "direccion": "Centro Comercial Alcampo. Ctra. BI-632 Montorreta Kalea",
+  "poblacion": "Durango",
+  "latitud": 43.164651,
+  "longitud": -2.619794
+},{
+  "_id": {
+    "$oid": "6214e6a8d3a59017c968c197"
+  },
+  "nombre": "Leroy Merlin Vitoria",
+  "direccion": "Centro Comercial Boulevard. Zaramaga s/n",
+  "poblacion": "Vitoria",
+  "latitud": 42.86123,
+  "longitud": -2.665169
+}]

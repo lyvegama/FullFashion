@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: compras.controllers.js</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Source: compras.controllers.js</h1>
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>const Stripe = require("stripe")
+const Pedido = require('../models/compraModel')
+const mongoose = require("mongoose")
+const stripe = new Stripe("sk_test_51KWzYqAT2Dvvoq4FP3inAGTdnEcI6cQ0lepOWuW8ExJUbOGkvCVqzNx2Cc82Q4xOTw0hUaGeb0algovVt3gI6fSB00NfBV2hGR")
+const nodemailer = require("nodemailer")
+const { ConsoleMessage } = require("puppeteer")
+
+
+const actionCompras = {
+
+/**
+     * Procesa un pago y guarda la información de la compra tanto en la base de stripe como en la de mongo
+     * @constructor
+     * @param {object} req - La informacion la recibe parte del formulario de pago, parte del storage donde se encuentra alojada la información del pedido
+     */
+
+    pago: async (req, res) => {
+
+        const { id, amount, id_usuario, productos, estado, fecha_creacion, modo_entrega, direccion, cp, poblacion, devolucion, filtros } = req.body
+        const payment = await stripe.paymentIntents.create({
+            amount,
+            currency: "EUR",
+            description: "Pack full fashion",
+            payment_method: id,
+            confirm: true
+
+        })
+
+        const compraToSave = new Pedido({
+            id_usuario,
+            productos,
+            estado,
+            fecha_creacion,
+            modo_entrega,
+            direccion,
+            cp,
+            poblacion,
+            devolucion,
+            filtros
+        })
+        compraToSave.save()
+        res.send({ message: "Compra realizada correctamente" })
+    },
+    /**
+     * Busca los pedidos de un usuario
+     * @constructor
+     * @param {object} req - Recibe un id de usuario con el que realiza la búsqueda de todas las compras
+     */
+    buscarCompras: async (req, res) => {
+        var busquedaPedidos = await Pedido.find({ id_usuario: req.body.idUsuario })
+        if (busquedaPedidos.length === 0) {
+            res.json("sinPedidos")
+        } else {
+            res.json(busquedaPedidos)
+        }
+        
+
+
+    },
+
+/**
+     * Actualiza un pedido cuando se pide una devolución
+     * @constructor
+     * @param {object} req - La informacion que recibe el id del pedido en el que se ha pedido devolución desde el perfil para modificarlo y actualizarlo
+     */
+
+    actualizarPedido: async (req, res) => {
+       
+        const datosCambio = { productos: req.body };
+        var actualizarPedido = await Pedido.findOneAndUpdate({ id_pedido: req.body[0].id_pedido }, datosCambio)
+        // var actualizarPedido = await Pedido.findOneAndUpdate({id_pedido: req.body.id_pedido}, {devolucion:true})
+        res.json("actualizadoPedido");
+
+    },
+    /**
+     * Actualiza un pedido cambiando su estado a devuelto para que desaparezca del historial
+     * @constructor
+     * @param {object} req - La informacion que recibe el id del pedido de la función anterior para cambiar su estado a devuelto
+     */
+    quitarPedido: async (req, res) => {
+      
+        //Si pedido devolucion es true, cambia el estado a devuelto: los pedidos en histroail devueltos no se veran.
+        var devueltaPedido = await Pedido.findOneAndUpdate({ id_pedido: req.body.id_pedido }, { estado: "devuelto" })
+        res.json("quitarPedido")
+
+    },
+    /**
+     * Actualiza un pedido cambiando devolución a true para indicar que el nuevo pedido que se genera tras el cambio de la función quitarPedido es producto de una devolución.
+     * @constructor
+     * @param {object} req - La informacion que recibe el id del pedido de la función anterior para cambiar su estado a devolución: true.
+     */
+    devolucionPrimera:async (req, res) => {
+       
+        var actualizarPedido = await Pedido.findOneAndUpdate({id_pedido: req.body[0].id_pedido}, {devolucion:true})
+        res.json("devolucionPrimera");
+
+    },
+ /**
+     * Manda por mail la factura de la compra al usuario
+     * @constructor
+     * @param {object} req - En el req.body recibe toda la información del cliente que ha finalizado una compra y que se guarda en el storage: mail, nombre, dirección, población, código postal, fecha de compra, modo de envío, producto, y precio.
+     */
+
+    enviarMail: async (req, res) => {
+     
+        const transporter = nodemailer.createTransport({
+            host: 'smtp.gmail.com',
+            port: 465,
+            secure: true, //true para el puerto 465, false para otros puertos
+            auth: {
+                user: 'fullfashion211@gmail.com',
+                pass: 'aoenowzavvtthpzf' //password generado con password application de Google
+            },
+            tls: {
+                rejectUnauthorized: false
+            }
+        });
+        var mailOptions = {
+            from: 'Full Fashion &lt;fullfashion211@gmail.com>',
+            to: `${req.body.email}`,
+            subject: "Factura de Full Fashion",
+            text: "¡Hola! Gracias por comprar en Full Fashion. Aquí tienes la factura que nos has pedido de tu compra. Gracias por confiar en nosotros.",
+
+            html: `&lt;div>&lt;img src="https://raw.githubusercontent.com/moramraul/imagenesFashion/main/ImagenesHome/Logo2.png" width=100px height=100px />&lt;br />&lt;p>Full Fashion S.A&lt;/p>&lt;p>Calle Mongo, Madrid, 95959&lt;/p>&lt;p>fullfashion211@gmail.com&lt;/p>&lt;hr size="10" width="300%" align="left" color="grey">&lt;/hr>    &lt;p>&lt;b>Nombre del cliente:&lt;/b> ${req.body.nombre}&lt;/p>&lt;p>&lt;b>Direccion de envío:&lt;/b> ${req.body.direccion}&lt;/p>&lt;p>&lt;b>Población de envío:&lt;/b> ${req.body.poblacion}&lt;/p>&lt;p>${req.body.cp}&lt;/p>&lt;div className="container">&lt;p align="justify">&lt;b>Fecha y hora de la compra: &lt;/b>${req.body.fechaCompra}&lt;/p>&lt;p align="justify">&lt;b>Modo de envío:&lt;/b> ${req.body.modoEnvio}&lt;/p>&lt;/div>&lt;table className="table">&lt;thead>&lt;tr>&lt;th>Productos&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/th>&lt;th>Cantidad&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/th>&lt;th>Precio&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/th>&lt;/tr>&lt;/thead>&lt;tbody>&lt;tr>&lt;td>${req.body.producto}&lt;/td>&lt;td>1&lt;/td>&lt;td>${req.body.precio}&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>&lt;div>&lt;div>&lt;p align="justify">Gracias por tu compra, estamos felices de ser partícipes de tu nuevo look. El envío puede demorarse entre 3 y 5 días laborables si has elegido correo ordinario y punto de recogida; y 24h si has elegido correo certificado. Según nuestras políticas de devoluciones* dispones de 2 cambios después de realizar la compra, el primero puedes elegir hasta un máximo de 3 prendas y si todavía no te convence no te preocupes, puedes devolvernos todo el pack completo, los gastos de envío y devoluciones va incluido en el precio final de compra. Dispones de 30 días para realizar dicho cambio.&lt;/p>&lt;br />&lt;p align="justify">*Políticas de devoluciones de Full Fashion: Si deseas realizar la devolución de un artículo comprado en FullFashion.com, dispones de 30 días desde la fecha de envío de tu pedido.Los artículos deben conservar todas las etiquetas y estar en perfecto estado. Puedes encontrar más información acerca de la Política de Cambios y Devoluciones o del derecho de desistimiento en la Ley 7/1996, de 15 de enero de 1996, de Ordenación del Comercio Minorista (Boletín Oficial del Estado nº 15, de 17 de enero de 1996).&lt;/p>&lt;/div>&lt;/div>&lt;/div >`,
+        };
+        transporter.sendMail(mailOptions, (error, info) => {
+            if (error) {
+                console.log(error);
+            } else {
+                console.log("Email enviado.")
+            }
+        })
+        
+
+
+    },
+
+
+
+
+
+}
+
+
+
+
+module.exports = actionCompras</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="actionCompras.actualizarPedido.html">actualizarPedido</a></li><li><a href="actionCompras.buscarCompras.html">buscarCompras</a></li><li><a href="actionCompras.devolucionPrimera.html">devolucionPrimera</a></li><li><a href="actionCompras.enviarMail.html">enviarMail</a></li><li><a href="actionCompras.pago.html">pago</a></li><li><a href="actionCompras.quitarPedido.html">quitarPedido</a></li><li><a href="addProduct.html">addProduct</a></li><li><a href="eraseProduct.html">eraseProduct</a></li><li><a href="modifyProduct.html">modifyProduct</a></li><li><a href="products.html">products</a></li><li><a href="products.buscarProducto.html">buscarProducto</a></li></ul><h3>Global</h3><ul><li><a href="global.html#busquedaAbajo">busquedaAbajo</a></li><li><a href="global.html#busquedaArriba">busquedaArriba</a></li><li><a href="global.html#busquedaUsuarioEmail">busquedaUsuarioEmail</a></li><li><a href="global.html#busquedaUsuarioIdUsuario">busquedaUsuarioIdUsuario</a></li><li><a href="global.html#busquedaZapatos">busquedaZapatos</a></li><li><a href="global.html#insertarUsuario">insertarUsuario</a></li><li><a href="global.html#login">login</a></li><li><a href="global.html#quitarGuion">quitarGuion</a></li><li><a href="global.html#random">random</a></li><li><a href="global.html#register">register</a></li><li><a href="global.html#saveSesion">saveSesion</a></li><li><a href="global.html#updateUser">updateUser</a></li><li><a href="global.html#validation_dni">validation_dni</a></li><li><a href="global.html#validationFormat">validationFormat</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.10</a> on Tue Mar 01 2022 10:47:46 GMT+0100 (hora estándar de Europa central)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>

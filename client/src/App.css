@@ -1,0 +1,429 @@
+.App {
+  text-align: center;
+  font-family: Garamond;
+  height: 100%;
+  min-height: 100%;
+  padding-bottom: 20%;
+}
+
+#contenedorFooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  align-content: center;
+}
+
+#footerFooter { 
+  display: flex;
+  position: static;
+  bottom: 0;
+  width: 100%;
+  align-content: center;
+  justify-content: space-evenly;
+  background-color: #EDCB9F;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  flex-wrap: wrap;
+
+}
+
+
+.navbar-nav a { color: white;}
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.navbar-expand a {
+color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#map {
+  display:flex;
+  justify-content: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Nav-bar {
+  background-color: #EDCB9F;
+}
+
+.Nav-bar a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-weight: bold;}
+
+.Mainhead {
+font-size: 30px;
+}
+.Mainhead h1{
+  font-size: 80px;
+}
+
+.ButtonHome {
+  background-color: #EDA79F;
+}
+
+.ButtonHome:hover {
+  background-color:  #E398B7;
+  transform: scale(1.1);
+}
+
+.botonTipoPersona{
+  font-size: 1.75em;
+}
+
+.envio {
+  border-radius: 12px;
+  display: inline;
+}
+
+.bigcontainer {
+  display: grid;
+  justify-content: center;
+}
+
+.buttonFormLook {
+  font-size: 1.75em;
+  background-color: #EDA79F;
+  border-radius: 12px;
+  padding: 10px;
+  color: black
+}
+
+.buttonFormLook:hover {
+  transform: scale(1.1);
+}
+
+.textAlturaPeso {
+  font-size: 1.5em;
+}
+
+.Homerecibir{
+  background-color: #EDCB9F;
+  font-size: 20px;
+}
+.Homerecibir h2 {
+  font-size: 60px;
+}
+
+.centertext {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.leaflet-container {
+  width: 400px; 
+  height: 400px;
+}
+
+.coste {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+h3 {
+  font-weight: bold;
+}
+
+.coste p {
+  font-size: 20px;
+}
+
+.nuevoestilo p {
+  font-size: 20px;
+}
+
+.resultadolook {
+  font-size: 20px;
+}
+
+.perfil p {
+  font-size: 20px;
+}
+
+.ButtonComienzo {
+  font-size: xx-large;
+  background-color: #EDA79F;
+}
+
+.ButtonComienzo:hover {
+  background-color: #E398B7;
+  transform: scale(1.1);
+}
+
+ /* ESTILOS CHAT */
+
+.containerFueraChat {
+  position: fixed;
+  bottom: 7%
+}
+
+ .containerUnirseChat {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.containerUnirseChat h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+.containerUnirseChat input {
+  width: 210px;
+  height: 40px;
+  margin: 7px;
+  border: 2px solid #EDA79F;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.containerUnirseChat button {
+  width: 225px;
+  height: 50px;
+  margin: 7px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  background: #EDA79F;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+.containerUnirseChat button:hover {
+  background:  #E398B7;
+  font-family: "Open Sans", sans-serif;
+}
+
+.ventanaChat {
+  position: fixed;
+  bottom: 7%;
+  width: 300px;
+  height: 420px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.ventanaChat p {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.ventanaChat .headerChat {
+  height: 45px;
+  border-radius: 6px;
+  background: #263238;
+  position: relative;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+.ventanaChat .headerChat p {
+  display: block;
+  padding: 0 1em 0 2em;
+  color: #fff;
+  font-weight: 700;
+  line-height: 45px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.ventanaChat .bodyChat {
+  height: calc(450px - (45px + 70px));
+  border: 1px solid #263238;
+  background: #fff;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+}
+.ventanaChat .bodyChat .containerMensaje {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+}
+
+.ventanaChat .bodyChat .containerMensaje::-webkit-scrollbar {
+  display: none;
+  font-family: "Open Sans", sans-serif;
+}
+.ventanaChat .bodyChat .mensaje {
+  height: auto;
+  padding: 10px;
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+}
+
+.ventanaChat .bodyChat .mensaje .contenidoMensaje {
+  width: auto;
+  height: auto;
+  min-height: 40px;
+  max-width: 120px;
+  background-color: #43a047;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  font-family: "Open Sans", sans-serif;
+}
+
+#tu {
+  justify-content: flex-end;
+  font-family: "Open Sans", sans-serif;
+}
+
+#tu .contenidoMensaje {
+  justify-content: flex-end;
+  font-family: "Open Sans", sans-serif;
+}
+
+#tu .metaMensaje {
+  justify-content: flex-end;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 5px;
+}
+
+#otro {
+  justify-content: flex-start;
+  font-family: "Open Sans", sans-serif;
+}
+
+#otro .contenidoMensaje {
+  justify-content: flex-start;
+  background-color: cornflowerblue;
+  font-family: "Open Sans", sans-serif;
+}
+
+#otro .metaMensaje {
+  justify-content: flex-start;
+  font-family: "Open Sans", sans-serif;
+  margin-right: 5px;
+}
+
+.metaMensaje #autor {
+  margin-left: 10px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+
+.ventanaChat .bodyChat .mensaje .metaMensaje {
+  display: flex;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.ventanaChat .footerChat {
+  height: 40px;
+  border: 1px solid #263238;
+  font-family: "Open Sans", sans-serif;
+  border-top: none;
+  display: flex;
+}
+
+.ventanaChat .footerChat input {
+  height: 100%;
+  flex: 85%;
+  border: 0;
+  padding: 0 0.7em;
+  font-size: 1em;
+  font-family: "Open Sans", sans-serif;
+  border-right: 1px dotted #607d8b;
+  outline: none;
+}
+
+.ventanaChat .footerChat button {
+  border: 0;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  flex: 15%;
+  height: 100%;
+  background: white;
+  outline: none;
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+  color: lightgray;
+}
+
+.ventanaChat .footerChat button:hover {
+  color: #43a047;
+  font-family: "Open Sans", sans-serif;
+}
+.hide {
+  opacity: 0 !important;
+}
+
+
+.color {
+  display: inline;
+} 
+
+@media screen and (min-device-width: 320px) and (max-width: 767px) {
+  .App {
+      
+      padding-bottom: 50%;
+  }
+}
+
+.persona:hover{
+  border: 1px solid #E398B7;
+border-radius:50%;
+-webkit-border-radius:50%;
+scale:1.1;
+}
+
+
+input[type="checkbox"] {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+}
+
+
